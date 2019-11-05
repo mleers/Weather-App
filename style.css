@@ -1,0 +1,73 @@
+header {
+    color: #505050;
+    text-align: center;
+    
+}
+
+container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+/* form {
+    margin: 0 auto;
+    width: 400px;
+} */
+
+p {
+    text-align: center;
+}
+
+.forecast {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.prompt{
+    font-size: 2em;
+    margin: 0 auto;
+    width: 400px;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #395870;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: 1em;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: 15px;
+}
+
+
+
+/* .photo {
+    width: 100%;
+    margin-top: 5px;
+} */
