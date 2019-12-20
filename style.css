@@ -70,11 +70,10 @@ input[type=text], select {
 }
 
 img {
-    width: auto;
+    width:-webkit-fill-available;
     height:auto;
-    max-width:100%;
-    max-height:100vh;
 }
+    
 
  /* .photo {
     width: 400px;
