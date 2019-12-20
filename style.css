@@ -4,14 +4,18 @@ header {
     
 }
 
+body {
+    margin: 0;
+}
+
 container {
     margin: 0 auto;
     width: 400px;
 }
 
-/* form {
+/* .form {
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
 } */
 
 p {
@@ -28,7 +32,7 @@ p {
 .prompt{
     font-size: 2em;
     margin: 0 auto;
-    width: 400px;
+    /* width: 100%; */
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   }
@@ -65,9 +69,15 @@ input[type=text], select {
     font-size: 15px;
 }
 
+img {
+    width: auto;
+    height:auto;
+    max-width:100%;
+    max-height:100vh;
+}
 
-
- .photo {
-    width: 100%;
+ /* .photo {
+    width: 400px;
     margin-top: 5px;
-} 
+    height:auto;
+}  */
